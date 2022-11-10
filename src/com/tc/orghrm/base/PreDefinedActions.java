@@ -8,12 +8,15 @@ public class PreDefinedActions {
 
 	public final static WebDriver start(String url) {
 		System.setProperty("webdriver.chrome.driver", ".//drivers/chromedriver_106.exe");
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(url);
-		return driver;}
+		return driver;
+		
+		}
 	
 	public static void closeBrowser() {
 		driver.close();
+		System.out.println("-----------------");
 	}
 }
