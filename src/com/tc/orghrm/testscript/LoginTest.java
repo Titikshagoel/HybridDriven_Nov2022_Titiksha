@@ -22,5 +22,7 @@ public class LoginTest {
 		String actualTitle=loginPages.getPageTitle();
 		String expectectedTitle="Employee Management";
 		Assert.assertEquals(actualTitle,expectectedTitle,"Expected title was"+expectectedTitle +"but actual title is"+ actualTitle);//overloaded function
+		
+		PreDefinedActions.closeBrowser();
 }
 }
