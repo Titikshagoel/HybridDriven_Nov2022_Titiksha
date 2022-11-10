@@ -19,7 +19,10 @@ public class PreDefinedActions {
 		driver.close();
 		System.out.println("hello");
 		System.out.println("hii");
-		
+		System.out.print("abc");
+		System.out.print("Hi");
+		System.out.print("------");
+
 
 	}
 }
