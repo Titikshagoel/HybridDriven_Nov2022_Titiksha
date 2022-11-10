@@ -17,9 +17,6 @@ public class PreDefinedActions {
 	
 	public static void closeBrowser() {
 		driver.close();
-		System.out.println("-----------------");
-		System.out.println("-----------------");
-		System.out.println("-----------------");
-		System.out.println("-----------------");
+		
 	}
 }
