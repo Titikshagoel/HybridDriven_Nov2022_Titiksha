@@ -17,13 +17,6 @@ public class PreDefinedActions {
 	
 	public static void closeBrowser() {
 		driver.close();
-<<<<<<< Updated upstream
-		System.out.println("-----------------");
-=======
-		System.out.println("--------------------");
-		System.out.println("--------------------");
-		System.out.println("--------------------");
-		System.out.println("--------------------");
->>>>>>> Stashed changes
+
 	}
 }
